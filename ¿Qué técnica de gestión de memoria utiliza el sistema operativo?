@@ -1,0 +1,34 @@
+
+🧠 Principales técnicas de gestión de memoria:
+1. Segmentación
+Divide la memoria en segmentos lógicos como: código, datos, pila, etc.
+
+Cada segmento puede tener un tamaño distinto.
+
+Facilita la protección y organización de programas.
+
+🟢 Ventaja: más orden lógico y modular.
+🔴 Desventaja: posible fragmentación externa.
+
+2. Paginación
+Divide la memoria física y lógica en bloques del mismo tamaño: páginas (memoria lógica) y marcos (memoria física).
+
+El sistema operativo mantiene una tabla de páginas para mapear direcciones lógicas a físicas.
+
+🟢 Ventaja: evita la fragmentación externa, permite la memoria virtual.
+🔴 Desventaja: puede haber fragmentación interna.
+
+3. Memoria virtual
+Permite que los procesos usen más memoria de la que hay físicamente en RAM.
+
+Usa el espacio de intercambio (swap) en disco como extensión de la RAM.
+
+Requiere traducción de direcciones y paginación.
+
+🟢 Ventaja: ejecución de programas grandes, multiprogramación eficiente.
+🔴 Desventaja: acceso más lento cuando se usa swap.
+
+4. Asignación dinámica de memoria
+El sistema y los procesos pueden solicitar o liberar memoria durante la ejecución usando funciones como malloc() y free() (en C).
+
+El kernel gestiona bloques libres y usados.
