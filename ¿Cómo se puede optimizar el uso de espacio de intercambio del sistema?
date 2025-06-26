@@ -1,0 +1,6 @@
+Para optimizar el uso del espacio de intercambio (swap) en Linux, se pueden aplicar varias estrategias que permiten mejorar el rendimiento del sistema, evitando el uso excesivo de swap y favoreciendo el uso eficiente de la RAM.
+1. 🧠 Ajustar el “swappiness”
+2. 🔧 Usar zswap o zram (compresión de swap en RAM)
+3. 📁 Preferir archivo swap en lugar de partición (opcional)
+4. 📉 Monitorear el uso del swap
+5. 🧽 Cerrar procesos innecesarios o mejorar la RAM física
