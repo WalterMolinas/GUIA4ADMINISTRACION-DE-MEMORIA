@@ -1,0 +1,9 @@
+✅ Comandos para ver el uso de RAM por proceso:
+Muestra procesos activos en tiempo real, ordenados por consumo.
+
+top
+🔍 Fijate en la columna:
+
+%MEM: porcentaje de uso de RAM por proceso
+
+RES: memoria física (RAM real) que está usando el proceso
