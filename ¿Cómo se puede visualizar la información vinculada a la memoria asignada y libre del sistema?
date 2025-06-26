@@ -1,0 +1,9 @@
+Este comando muestra la memoria total, usada, libre, en caché, y de intercambio (swap).
+
+free -h
+
+Muestran en tiempo real el uso de la memoria junto con los procesos activos.
+
+top está instalado por defecto:
+
+top
